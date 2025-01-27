@@ -1,10 +1,11 @@
 import './App.css'
+import Pacote from './Pacote'
 
 function App() {
 
   return (
     <>
-      <p>Olá mundo!</p>
+      <Pacote></Pacote>
     </>
   )
 }
