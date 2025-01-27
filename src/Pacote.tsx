@@ -1,4 +1,4 @@
-import { use, useState } from "react"
+import { useState } from "react"
 import "./Pacote.css"
 
 export default function Pacote() {
