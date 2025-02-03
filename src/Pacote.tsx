@@ -1,6 +1,19 @@
 import { useState } from "react"
 import "./Pacote.css"
 
+export interface PacoteType {
+    chave : string,
+    valor: number,
+    id: string,
+    largura: number,
+    altura: number,
+    profundidade: number
+}
+
+export interface PacoteChaveType {
+    chave: string
+}
+
 export default function Pacote() {
 
     const [pacote, setPacote] = useState({
